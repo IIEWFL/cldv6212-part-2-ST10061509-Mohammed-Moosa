@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Minimal Layout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header style="background-color: #f0f0f0; padding: 10px; border-bottom: 1px solid #ccc;">
+        <nav>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 15px;">
+                <li><a href="/" style="color: blue; text-decoration: none;">Home</a></li>
+                <li><a href="/Customer" style="color: blue; text-decoration: none;">Customers</a></li>
+                <li><a href="/Order" style="color: blue; text-decoration: none;">Orders</a></li>
+                <li><a href="/Image" style="color: blue; text-decoration: none;">Product Images</a></li>
+                <li><a href="/Queue" style="color: blue; text-decoration: none;">Order/Inventory</a></li>
+                <li><a href="/FileShare" style="color: blue; text-decoration: none;">Contracts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container" style="padding: 20px;">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer style="background-color: #f0f0f0; padding: 10px; border-top: 1px solid #ccc; position: fixed; bottom: 0; width: 100%;">
+        &copy; @DateTime.Now.Year - ABC
+    </footer>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

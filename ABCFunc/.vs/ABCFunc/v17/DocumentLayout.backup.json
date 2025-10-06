@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\functions\\filesharefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\functions\\filesharefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\services\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\services\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\functions\\customertablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\functions\\customertablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\functions\\getorderfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\functions\\getorderfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\functions\\ordermanagementfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\functions\\ordermanagementfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\functions\\orderprocessorfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\functions\\orderprocessorfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\functions\\orderqueuefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\functions\\orderqueuefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\functions\\processorderfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\functions\\processorderfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\functions\\productblobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\functions\\productblobfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\functions\\submitorderfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\functions\\submitorderfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|c:\\users\\shani\\onedrive\\desktop\\cldv6212-part-2-st10061509-mohammed-moosa\\abcfunc\\abcfunc\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{560F34C8-2862-4FF9-8075-A1802F14F784}|ABCFunc\\ABCFunc.csproj|solutionrelative:abcfunc\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileShareFunction.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\FileShareFunction.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Functions\\FileShareFunction.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\FileShareFunction.cs",
+              "RelativeToolTip": "ABCFunc\\Functions\\FileShareFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:46:02.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Services\\TableService.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Services\\TableService.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Services\\TableService.cs",
+              "RelativeToolTip": "ABCFunc\\Services\\TableService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:37:10.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QueueService.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Services\\QueueService.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Services\\QueueService.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Services\\QueueService.cs",
+              "RelativeToolTip": "ABCFunc\\Services\\QueueService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:37:31.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Services\\BlobService.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Services\\BlobService.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Services\\BlobService.cs",
+              "RelativeToolTip": "ABCFunc\\Services\\BlobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:37:59.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Program.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Program.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Program.cs",
+              "RelativeToolTip": "ABCFunc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:51:52.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Models\\Order.cs",
+              "RelativeToolTip": "ABCFunc\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:41:41.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Services\\FileService.cs",
+              "RelativeToolTip": "ABCFunc\\Services\\FileService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:37:46.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerTableFunction.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\CustomerTableFunction.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Functions\\CustomerTableFunction.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\CustomerTableFunction.cs",
+              "RelativeToolTip": "ABCFunc\\Functions\\CustomerTableFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:43:37.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetOrderFunction.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\GetOrderFunction.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Functions\\GetOrderFunction.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\GetOrderFunction.cs",
+              "RelativeToolTip": "ABCFunc\\Functions\\GetOrderFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T12:16:53.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderManagementFunction.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\OrderManagementFunction.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Functions\\OrderManagementFunction.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\OrderManagementFunction.cs",
+              "RelativeToolTip": "ABCFunc\\Functions\\OrderManagementFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:47:06.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderProcessorFunction.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\OrderProcessorFunction.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Functions\\OrderProcessorFunction.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\OrderProcessorFunction.cs",
+              "RelativeToolTip": "ABCFunc\\Functions\\OrderProcessorFunction.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T10:14:45.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderQueueFunction.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\OrderQueueFunction.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Functions\\OrderQueueFunction.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\OrderQueueFunction.cs",
+              "RelativeToolTip": "ABCFunc\\Functions\\OrderQueueFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:48:41.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProcessOrderFunction.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\ProcessOrderFunction.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Functions\\ProcessOrderFunction.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\ProcessOrderFunction.cs",
+              "RelativeToolTip": "ABCFunc\\Functions\\ProcessOrderFunction.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:49:30.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductBlobFunction.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\ProductBlobFunction.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Functions\\ProductBlobFunction.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\ProductBlobFunction.cs",
+              "RelativeToolTip": "ABCFunc\\Functions\\ProductBlobFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:50:12.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SubmitOrderFunction.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\SubmitOrderFunction.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Functions\\SubmitOrderFunction.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Functions\\SubmitOrderFunction.cs",
+              "RelativeToolTip": "ABCFunc\\Functions\\SubmitOrderFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:43:06.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Models\\Product.cs",
+              "RelativeToolTip": "ABCFunc\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:41:51.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "ABCFunc\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\Models\\Customer.cs",
+              "RelativeToolTip": "ABCFunc\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:41:19.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\local.settings.json",
+              "RelativeDocumentMoniker": "ABCFunc\\local.settings.json",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\local.settings.json",
+              "RelativeToolTip": "ABCFunc\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-05T13:51:40.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "host.json",
+              "DocumentMoniker": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\host.json",
+              "RelativeDocumentMoniker": "ABCFunc\\host.json",
+              "ToolTip": "C:\\Users\\shani\\OneDrive\\Desktop\\cldv6212-part-2-ST10061509-Mohammed-Moosa\\ABCFunc\\ABCFunc\\host.json",
+              "RelativeToolTip": "ABCFunc\\host.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-05T13:51:34.442Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

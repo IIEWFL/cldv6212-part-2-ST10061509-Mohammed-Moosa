@@ -1,0 +1,162 @@
+﻿@model IEnumerable<ABC_Retail_App.Models.Order>
+@{
+    ViewData["Title"] = "Orders Management";
+}
+
+<div class="container mx-auto p-6 md:p-10">
+    <div class="flex flex-wrap justify-between items-center mb-8">
+        <div>
+            <h2 class="text-3xl font-extrabold text-gray-800 border-b-4 border-indigo-600 pb-2 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10m0-10l-8-4" />
+                </svg>
+                Orders Dashboard
+            </h2>
+        </div>
+        <div class="mt-4 md:mt-0">
+            <a asp-action="Create"
+               class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-200 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 010 2h-5v5a1 1 0 01-2 0v-5H4a1 1 0 010-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+                </svg>
+                New Order
+            </a>
+        </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+        <form asp-action="Index" method="get" class="flex flex-col md:flex-row gap-4">
+            <input type="text" name="searchTerm"
+                   class="flex-grow py-3 px-5 border border-gray-300 rounded-full focus:ring-indigo-500 focus:border-indigo-500 transition duration-150"
+                   placeholder="Search by customer name, order ID, or status..." value="@ViewBag.SearchTerm" />
+            <button type="submit"
+                    class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-150 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                Search
+            </button>
+        </form>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="bg-green-100 border-l-4 border-green-500 text-green-800 p-4 mb-6 rounded-lg shadow-md flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 2a10 10 0 110 20 10 10 0 010-20z" />
+            </svg>
+            <span class="font-semibold">Success:</span>
+            <span class="ml-2">@TempData["SuccessMessage"]</span>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="bg-red-100 border-l-4 border-red-500 text-red-800 p-4 mb-6 rounded-lg shadow-md flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+            <span class="font-semibold">Error:</span>
+            <span class="ml-2">@TempData["ErrorMessage"]</span>
+        </div>
+    }
+
+    <div class="bg-white rounded-xl shadow-2xl overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-800 text-white">
+                <tr>
+                    <th class="px-6 py-4 text-left text-xs font-medium uppercase tracking-wider">Order ID</th>
+                    <th class="px-6 py-4 text-left text-xs font-medium uppercase tracking-wider">Customer</th>
+                    <th class="px-6 py-4 text-left text-xs font-medium uppercase tracking-wider">Product</th>
+                    <th class="px-6 py-4 text-left text-xs font-medium uppercase tracking-wider text-center">Qty</th>
+                    <th class="px-6 py-4 text-left text-xs font-medium uppercase tracking-wider">Total (R)</th>
+                    <th class="px-6 py-4 text-left text-xs font-medium uppercase tracking-wider">Status</th>
+                    <th class="px-6 py-4 text-left text-xs font-medium uppercase tracking-wider">Date</th>
+                    <th class="px-6 py-4 text-left text-xs font-medium uppercase tracking-wider">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var order in Model)
+                    {
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="px-6 py-4 text-sm font-mono text-gray-600">@order.RowKey?.Substring(0, Math.Min(8, order.RowKey.Length))</td>
+                            <td class="px-6 py-4 text-sm text-gray-900">@order.CustomerName</td>
+                            <td class="px-6 py-4 text-sm text-gray-700">@order.ProductName</td>
+                            <td class="px-6 py-4 text-sm text-center">@order.Quantity</td>
+                            <td class="px-6 py-4 text-sm font-bold text-green-600">@order.TotalPrice.ToString("F2")</td>
+                            <td class="px-6 py-4">
+                                @{
+                                    var statusColor = order.Status switch
+                                    {
+                                        "Completed" => "bg-green-100 text-green-800",
+                                        "Processing" => "bg-yellow-100 text-yellow-800",
+                                        "Pending" => "bg-blue-100 text-blue-800",
+                                        _ => "bg-gray-100 text-gray-800"
+                                    };
+                                }
+                                <span class="px-3 py-1 rounded-full text-xs font-semibold @statusColor">@order.Status</span>
+                            </td>
+                            <td class="px-6 py-4 text-xs text-gray-500">@order.OrderDate.ToString("MM/dd/yyyy HH:mm")</td>
+                            <td class="px-6 py-4 text-sm">
+                                <div class="flex space-x-2">
+                                    <a asp-action="Details" asp-route-id="@order.RowKey"
+                                       class="text-blue-600 hover:text-blue-900 font-semibold py-1 px-3 border border-blue-500 rounded-md hover:bg-blue-50 transition"
+                                       title="View Details">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-1.274 4.057-5.065 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                    </a>
+                                    @if (order.Status != "Completed")
+                                    {
+                                        <form asp-action="UpdateStatus" method="post" class="inline">
+                                            <input type="hidden" name="orderId" value="@order.RowKey" />
+                                            <input type="hidden" name="newStatus" value="Completed" />
+                                            <button type="submit"
+                                                    class="text-green-600 hover:text-green-900 font-semibold py-1 px-3 border border-green-500 rounded-md hover:bg-green-50 transition"
+                                                    title="Mark as Completed">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                                                </svg>
+                                            </button>
+                                        </form>
+                                    }
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="8" class="px-6 py-20 text-center text-gray-500 bg-gray-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-12 w-12 text-gray-400 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10m0-10l-8-4" />
+                            </svg>
+                            <h4 class="text-xl font-semibold">No Orders Found</h4>
+                            <p class="text-sm mt-1">Try refining your search or create a new order to get started.</p>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f4f7f9;
+    }
+</style>

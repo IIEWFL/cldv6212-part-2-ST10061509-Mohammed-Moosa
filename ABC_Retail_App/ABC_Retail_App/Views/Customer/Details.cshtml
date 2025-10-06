@@ -1,0 +1,55 @@
+﻿@model ABC_Retail_App.Models.Customer
+
+@{
+    ViewData["Title"] = "Customer Details";
+}
+
+<div class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold mb-6 text-gray-800">Customer Details</h1>
+
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
+            <strong class="font-bold">Error!</strong>
+            <span class="block sm:inline">@ViewBag.ErrorMessage</span>
+        </div>
+    }
+
+    <div class="bg-white p-6 rounded-lg shadow-md max-w-lg mx-auto">
+        <dl class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 text-gray-700">
+            <dt class="font-semibold">@Html.DisplayNameFor(model => model.Name):</dt>
+            <dd>@Html.DisplayFor(model => model.Name)</dd>
+
+            <dt class="font-semibold">@Html.DisplayNameFor(model => model.Email):</dt>
+            <dd>@Html.DisplayFor(model => model.Email)</dd>
+
+            <dt class="font-semibold">@Html.DisplayNameFor(model => model.Phone):</dt>
+            <dd>@Html.DisplayFor(model => model.Phone)</dd>
+
+            <dt class="font-semibold">@Html.DisplayNameFor(model => model.PartitionKey):</dt>
+            <dd>@Html.DisplayFor(model => model.PartitionKey)</dd>
+
+            <dt class="font-semibold">@Html.DisplayNameFor(model => model.RowKey):</dt>
+            <dd>@Html.DisplayFor(model => model.RowKey)</dd>
+
+            <dt class="font-semibold">@Html.DisplayNameFor(model => model.CreatedDate):</dt>
+            <dd>@Html.DisplayFor(model => model.CreatedDate)</dd>
+        </dl>
+        <div class="mt-8 flex justify-between">
+            <a asp-action="Edit" asp-route-partitionKey="@Model?.PartitionKey" asp-route-rowKey="@Model?.RowKey" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                Edit
+            </a>
+            <a asp-action="Index" class="inline-block align-baseline font-bold text-sm text-blue-600 hover:text-blue-800">
+                Back to List
+            </a>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+</style>
+
